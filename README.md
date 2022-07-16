@@ -1,5 +1,6 @@
-This custom terraform provider acts as a bridge between terraform and a simple mock users http service.
-The http service exposes APIs to allow CRUD operations on a user resource.
+This custom terraform provider acts as a bridge between terraform and a mock http service that exposes an API to 
+manipulate a hypothetical User's information.
+The users service exposes http APIs to allow operations on a user resource.
 
 
 ### Requirements
